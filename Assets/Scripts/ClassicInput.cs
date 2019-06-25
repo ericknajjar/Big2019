@@ -1,10 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TEst : MonoBehaviour
+public class ClassicInput : MonoBehaviour
 {
     Animator _animator;
+
 
     private void Awake()
     {
@@ -30,5 +32,10 @@ public class TEst : MonoBehaviour
         var walking = Input.GetKey(KeyCode.RightArrow);
         _animator.SetBool("crouched", crouched);
         _animator.SetBool("walking", walking);
+    }
+
+    public void SpawnHadouken()
+    {
+        
     }
 }
