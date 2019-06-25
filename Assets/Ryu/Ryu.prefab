@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4966818091732716671}
   - component: {fileID: 3417392789244631074}
   m_Layer: 0
-  m_Name: Ken
+  m_Name: Ryu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69,13 +69,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7981458561678715645, guid: f235199a594fe6640997a0b0a0ec47f3,
+  m_Sprite: {fileID: -8489698273030357729, guid: 06480cb7cdf51194cb0aa00bb06923be,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.62, y: 1}
+  m_Size: {x: 0.43, y: 0.81}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -91,7 +91,7 @@ Animator:
   m_GameObject: {fileID: 927523668016900111}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dd272d72e052dd542bd5b82d0b39d6fb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
