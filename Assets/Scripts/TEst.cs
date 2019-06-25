@@ -21,9 +21,14 @@ public class TEst : MonoBehaviour
             _animator.SetTrigger("punch");
         }
 
-        if(Input.GetKeyDown(KeyCode.RightArrow))
+        if(Input.GetKeyDown(KeyCode.A))
         {
             _animator.SetTrigger("hadouken");
         }
+
+        var crouched = Input.GetKey(KeyCode.DownArrow);
+        var walking = Input.GetKey(KeyCode.RightArrow);
+        _animator.SetBool("crouched", crouched);
+        _animator.SetBool("walking", walking);
     }
 }
