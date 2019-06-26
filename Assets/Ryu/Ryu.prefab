@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 4966818091732716671}
   - component: {fileID: 3417392789244631074}
   - component: {fileID: 1954606261}
-  - component: {fileID: 1954606262}
+  - component: {fileID: 5262047279234896026}
   m_Layer: 0
   m_Name: Ryu
   m_TagString: Untagged
@@ -148,7 +148,7 @@ MonoBehaviour:
   _hadouken: {fileID: 2936503478135867786, guid: 07bdfd610e51f6549a24e4af9be16936,
     type: 3}
   _spawnPoint: {fileID: 1108416340323376016}
---- !u!114 &1954606262
+--- !u!114 &5262047279234896026
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
